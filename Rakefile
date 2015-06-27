@@ -1,5 +1,5 @@
 task :default do
-  exec("rerun -p '**/*.cr' crystal run trayRacer.cr");
+  exec("rerun -x -c -p '**/*.cr' crystal run trayRacer.cr");
 end
 
 task :test do
